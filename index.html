@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stream lagu</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Stream lagu</h1>
+
+<input type="file" id="upload" accept="audio/*">
+<div>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+</div>
+
+<audio id="radioPlayer" controls loop></audio>
+<canvas id="waveform" width="800" height="100"></canvas>
+<canvas id="waterfall" width="800" height="300"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
