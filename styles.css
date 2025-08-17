@@ -1,6 +1,43 @@
-body { font-family: Arial; text-align: center; background: #111; color: #fff; }
-    h1 { margin-top: 20px; }
-    button { padding: 10px 20px; margin: 5px; cursor: pointer; background: #444; color: #fff; border: none; border-radius: 5px; }
-    button:hover { background: #666; }
-    input[type=file] { margin: 20px; }
-    canvas { display: block; margin: 20px auto; background: #000; border: 1px solid #444; }
+body {
+  font-family: Arial;
+  text-align: center;
+  background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW5pOHoyMjhpamsxbHc5aWtveTRydWpsejkxancxNDhwdWJnYmdjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TxVVB6PfWMjE4/giphy.gif") repeat;
+  background-size: 200px 200px; /* atur ukuran gif */
+  color: #fafafa;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #666;
+}
+
+input[type=file] {
+  margin: 20px;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  background: #000;
+  border: 1px solid #444;
+}
+
+.clock-widget {
+  position: flex;   /* biar ngikut layar */
+  bottom: 20px;      /* jarak dari bawah */
+  right: 20px;       /* jarak dari kanan */
+  z-index: 1000;     /* biar gak ketutup elemen lain */
+}
