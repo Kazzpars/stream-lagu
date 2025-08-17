@@ -64,3 +64,5 @@ audio-visualizer/
 
 - Make sure your browser allows **audio autoplay/resume**.
 - Uploading a new audio file replaces the current one without refreshing the page.
+- If you like this project, please give it a ⭐!
+- If you want to contribute or have any suggestions, feel free to open an issue or submit a pull request. Your feedback is always welcome! (*^‿^*)
